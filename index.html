@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Div Layout</title>
+<style>
+html, body {height:100%; margin:0;}
+.main {width:100%; height:100%;}
+.row {width:100%; display:flex;}
+.top {height:20%;}
+.menu {height:10%;}
+.content {height:70%;}
+.logo {width:30%;}
+.header {width:70%;}
+.menu iframe {width:20%;}
+.services {width:25%;}
+.maincontent {width:75%;}
+iframe {width:100%; height:100%; border:2px solid #004d40;}
+</style>
+</head>
+<body>
+<div class="main">
+<div class="row top">
+<div class="logo"><iframe src="logo.html" name="logoFrame"></iframe></div>
+<div class="header"><iframe src="heading.html" name="headerFrame"></iframe></div>
+</div>
+<div class="row menu">
+<iframe src="hor1.html" name="Home"></iframe>
+<iframe src="hor2.html" name="Login"></iframe>
+<iframe src="hor3.html" name="Registration"></iframe>
+<iframe src="hor4.html" name="Contact us"></iframe>
+<iframe src="hor5.html" name="catlouge"></iframe>
+</div>
+<div class="row content">
+<div class="services"><iframe src="services.html" name="servicesFrame"></iframe></div>
+<div class="maincontent"><iframe src="description.html" name="content"></iframe></div>
+</div>
+</div>
+</body>
+</html>
